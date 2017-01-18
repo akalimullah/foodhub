@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14px;
+  color: #333333
 }
 
 h1, h2, h3, h4 {
@@ -11,23 +12,41 @@ h1, h2, h3, h4 {
   font-family: "Passion One";
   font-size: xx-large;
 }
-/**/
+/* Basic image styles */
 .img-sm {
   width: 200px;
 }
 .img-xs {
   width: 50px;
 }
+/* Hero images and bgs */
 .who-delivers {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
+  color: #FFFFFF;
 }
 .download-apps {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
+  color: #FFFFFF;
 }
-
-
+.alt-bg-color {
+  background-color: #EEEEEE;
+}
+.accent-bg-color {
+  background-color: #3232AA;
+  color: #FFFFFF;
+}
+/* Section by section styling */
+.navbar {
+  background-color: #F63440;
+}
+.navbar *, .navbar .navbar-brand, .navbar .btn-link, .navbar-default .navbar-nav > li > a  {
+  color: #FFFFFF;
+}
+footer li {
+  margin-bottom: 10px;
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
